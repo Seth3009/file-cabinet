@@ -1,1 +1,18 @@
-%h1 hello this is index with haml
+#banner
+  .banner_content
+    %h1 File Cabinet
+    %p Your life's work. Organized, Always
+    %button= link_to "Enter", new_user_registration_path
+
+#callouts 
+  .callout_inner
+    .wrapper
+      .callout
+        %h2 Organize
+        %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo eleifend neque, vitae varius ligula interdum eget. Vestibulum luctus lobortis ullamcorper. Nullam vestibulum tortor a nulla ultricies, in tempor magna mattis. Vivamus feugiat nibh ac metus rutrum, non aliquam sem ullamcorper. Maecenas consectetur erat sed arcu lobortis, vitae viverra elit gravida. Quisque ac enim ut dui lobortis placerat. Sed at aliquam justo, a tristique odio. Praesent mattis erat a justo venenatis, sed lacinia ex fermentum. Aliquam erat volutpat.
+
+#bottom_cta
+  .wrapper
+    %h2 Go Ahead
+    %br
+    %button= link_to "Join Now", new_user_registration_path
